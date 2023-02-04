@@ -848,7 +848,8 @@ class API(object):
 
         args = {
             'uri': uri,
-            'after': request.args.get('after', 0)
+            'after': request.args.get('after', 0),
+            'asc': 0
         }
 
         try:
